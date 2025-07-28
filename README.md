@@ -27,8 +27,11 @@ To explore and analyze Amazon Prime’s catalog of movies and TV shows using key
 5.	Optionally export cleaned data or plots.
 
 ## Data Source:
-Scraped or collected from JustWatch.
-Some fields may include external mappings (like actor-director-role relationships).
+
+- Dataset collected from **JustWatch** (scraped or extracted)
+- Includes two main data files:
+  - `amazon_data` – content-level details
+  - `cast_data` – actor/director-level details
 
 ## Variables Description:
 
@@ -96,10 +99,10 @@ Libraries Used:
    
 ## Description:
 
-•	pandas, numpy for data manipulation.
-•	matplotlib, seaborn, plotly for visualization
-•	warnings to ignore warning messages.
-•	google colab for cloud based computing and analysis.
+* pandas, numpy for data manipulation.
+* matplotlib, seaborn, plotly for visualization.
+* warnings to ignore warning messages.
+* google colab for cloud based computing and analysis.
 
 ## Instructions for Use:
 
